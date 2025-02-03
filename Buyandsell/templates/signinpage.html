@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/signinpage.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="subboxone">
+            {% from "_formhelpers.html" import render_field %}
+            <form method="post" enctype="multipart/form-data">
+                <div class="headingone"><h3>Sign-up</h3></div>
+                <div class="namefield" ><input type="name" placeholder="Name" class="form-control" {{(form.name)}}></div>
+                <div class="efield"><input type="email" placeholder=" Email-id" class="form-control"{{(form.email) }}></div>
+                <div class="pswdfield"><input type="password" placeholder="Password"class="form-control" {{(form.password) }}></div>
+                <div class="pswdfield"><input type="password" placeholder="Confirm Password" class="form-control"{{(form.confirm) }}></div>
+                <div class="rgstrbtn"><button>Sign-in</button></div>
+ 
+            </form>
+        </div>
+        <div class="subboxtwo">
+            <div class="lg"><img src="static/css/PicturesSignin/logowtbg.png"></div>
+            <div class="ttlsite"><h2>Welcome to Auto Dynasty</h2></div>
+            <div class="descrp"><p>We here at Auto Dynasty are bound to provide you best services regarding car sales and purchases</p></div>
+        </div>
+        
+    </div>
+</body>
+</html>

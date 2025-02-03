@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/loginpage.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="subbox1">
+            <div><h3 class="headingsb1">Login</h3></div>
+            {% from "_formhelpers.html" import render_field %}
+            <form method="post" enctype="multipart/form-data">
+                <div class="ufield"><input type="text" placeholder="Name" class="form-control"{{(form.email) }}></div>
+                <div class="pfield"><input type="password" placeholder="Password" class="form-control"{{(form.password) }}></div>
+                <div class="lbtn"><button >Login</button></div>
+                <div class="pbtn"><button >Register</button></div>
+            </form>
+        </div>
+        <div class="subbox2">
+            <div class="logo"><img src="static/css/Pictureslogin/logowtbg.png"></div>
+            <div class="titlesite"><h2>Welcome to </h2></div>
+            <div class="titlesite2"><h1>Auto Dynasty</h1></div>
+            <div class="des"><p>Fulfilling your 4 wheel dream </p></div>
+            <div class="des2"><p>We are your preferred place for <br>selling and buying cars</p></div>
+
+            
+        </div>
+            
+    </div>
+     
+    
+
+    
+</body>
+</html>

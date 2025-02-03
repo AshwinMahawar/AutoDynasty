@@ -1,0 +1,170 @@
+body {
+    background-image: url('Pictureshomepage/carbg.jpg');
+    background-repeat: no-repeat;
+     background-size: cover; 
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height:100%;
+}
+.wrap {
+    margin-left:40%;
+    display: flex;
+
+    
+}
+/*.wraps {
+    margin-left:90%;
+    display: flex;
+    margin-top: -2%;
+
+}*/
+
+.lgbtn {
+    /* border: solid; */
+    margin-left: 80%;
+
+}
+
+.lgbtn button {
+    height: 35px;
+    width: 80px;
+    border-radius: 15px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    color:cornsilk;
+    font-size: 1.2em;
+    background-color: #ff1d58;
+
+}
+
+.sgbtn {
+    /* border: solid; */
+    margin-left: 10px;
+
+}
+
+.sgbtn button {
+    height: 35px;
+    width: 80px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cornsilk;
+    font-size: 1.2em;
+    background-color:#ff1d58;
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    margin-top:18%;
+    margin-left:50px;
+}
+
+.bustn button {
+    height: 70px;
+    width: 140px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cornsilk;
+    font-size: 1.2em;
+    background-color:#ff1d58;
+
+}
+
+.suctn button {
+    height: 70px;
+    width: 140px;
+    margin-left:10px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cornsilk;
+    font-size: 1.2em;
+    background-color:#ff1d58;
+
+}
+
+.predbtn button {
+    height: 70px;
+    width: 140px;
+    margin-left:10px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:cornsilk;
+    font-size: 1.2em;
+    background-color:#ff1d58;
+
+}
+.carimage{
+    padding: 0;
+    margin: 0;
+    min-width:100%;
+    height:100%;
+    border:none;
+
+}
+.carimage img{
+    max-width: 100%;
+    margin:0;
+    padding:0;
+    
+} 
+.upperside{
+    background-image: url('Pictures/carbg.jpg');
+    background-size:100% 100%;
+    height: 100%;
+
+    
+}
+.info{
+    display:flex;
+    height:45%;
+    padding:15px;
+    gap:80px;
+    background-color:rgb(166, 160, 160);
+}
+.card1{
+    /* border:solid; */
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+    width:25%;
+    padding:35px;
+    background-color:#8C1BAB;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:beige;
+
+}
+.features{
+    padding: 20px;
+    font-style: normal;
+}
+.features li{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card1:hover{
+    box-shadow:0 4px 8px 0 rgba(196, 19, 66, 0.315), 0 10px 30px 0 rgba(196, 19, 66, 0.315);
+
+}
+
+.card2{
+    /* border:solid; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:40%;
+    width:25%;
+    padding:20px;
+    background-color: rgb(205, 239, 11);
+    font-size: medium ;
+}
+
+.card2:hover{
+    box-shadow:0 4px 8px 0 rgba(196, 19, 66, 0.315), 0 6px 20px 0 rgba(196, 19, 66, 0.315);
+
+}
